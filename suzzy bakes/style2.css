@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(255, 153, 0);
+    padding: 50px;
+}
+.container{ 
+display: flex;
+padding: 50px;   
+justify-content: space-between;   
+} 
+.call{
+    font-size:15px;
+}
+table{
+    font-family: arial,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}

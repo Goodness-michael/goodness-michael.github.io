@@ -1,0 +1,101 @@
+
+body{ background-color: rgba(203, 127, 5, 0.849);
+box-sizing: border-box;}
+
+
+
+/* .container{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+/* } */
+.header{
+    background-color: rgba(45, 8, 8, 0.929);
+    color: azure;
+    text-align: center;
+    margin-top: 0;
+}
+ul{list-style: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+/* li{ float: left;} */
+li a{
+    
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 0;
+    }
+    .a:hover{
+        background-color: rgba(45, 8, 8, 0.929);
+        color: azure;
+    }
+    .gallery{width: 100%;
+        margin-right: 10px;
+        }
+        .colum{
+            float: left;
+            margin-left: 50px;
+            padding: 15px;
+            width: 23.3%;
+            font-size: medium;
+            /* height: 300px; */
+            }
+            .row{display:inline-block;}
+            .row::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            /* li{ text-decoration: dotted;} */
+            .colump{
+                border: 3px saddlebrown;
+                border-radius: 5px;
+            }
+            .gallerychef{
+                /* padding: 50px; */
+                color: white;
+                display: flex;
+                
+                
+                border: 2px solid rgb(45, 8, 8) ;
+                border-radius: 20px;
+                
+                }
+                .chef{
+                    /* float: left; */
+                    
+                    margin: 10px;
+                    padding-left: 100px;
+                }
+            .chef2{
+                /* text-align: right; */
+                padding-left: 50px;
+            }
+            .menu{background-image: url(Modern\ Burger.jpg); opacity: 0.6;}
+
+                
+            
+
+            
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
