@@ -1,0 +1,30 @@
+body{
+    background-image: url(whiteflower.jpg);
+}
+.container{
+    margin-left: 300px;
+    justify-content: left;
+}
+input[type =text],select,textarea{padding: 12px;
+    width: 50%;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
